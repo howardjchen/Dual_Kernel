@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<session version="1" name="Globalbarrier" hscale="1.7156232797043526E-6">
+<executable file="/home/CA2016F/ca14/CNN_CUDA/cnnConvLayer" timestamp="1481720935000" cwd="/home/CA2016F/ca14/CNN_CUDA" profileonstart="true" concurrentkernels="true" apitrace="true" environmentprofiling="false" uvmprofiling="false"><envs></envs></executable>
+<expert><columnprops></columnprops>
+<columnorder><column kind="NAME"/><column kind="INVOCATIONS"/><column kind="START_TIME"/><column kind="DURATION"/><column kind="AVG_DURATION"/><column kind="GRID_SIZE"/><column kind="BLOCK_SIZE"/><column kind="REGS_PER_THREAD"/><column kind="STAT_SHARED_MEM"/><column kind="DYNA_SHARED_MEM"/><column kind="AVG_DYNA_SHARED_MEM"/><column kind="BYTE_SIZE"/><column kind="THROUGHPUT"/><column kind="EMPTY"/><column kind="METRIC" label="achieved_occupancy"/><column kind="METRIC" label="gld_efficiency"/><column kind="METRIC" label="shared_efficiency"/><column kind="METRIC" label="gst_efficiency"/></columnorder>
+</expert>
+<analysis guided="true"><visitedstages><stage name="KERNELS_PERFORMANCE"/><stage name="KERNELS"/><stage name="TIMELINE"/></visitedstages></analysis>
+<expertsystem current="INTRO"><visited><stage name="INTRO"/></visited></expertsystem>
+<vruler width="200"/>
+<hruler>
+</hruler>
+<timelinestate>
+<timeline pathname="cnnConvLayer" kind="PROCESS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="cnnConvLayer/3823114048" kind="THREAD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="cnnConvLayer/3823114048/Runtime API" kind="RUNTIME" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="cnnConvLayer/3823114048/Driver API" kind="DRIVER" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="cnnConvLayer/Profiling Overhead" kind="OVERHEADS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680" kind="DEVICE" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1" kind="CONTEXT" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/MemCpy (HtoD)" kind="MEMCPY_HTOD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/MemCpy (DtoH)" kind="MEMCPY_DTOH" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Compute" kind="KERNELS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Compute/convLayerGPU(short*, short*, int*, int*, int*)" kind="KERNEL" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Streams" kind="STREAMS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Streams/7" kind="STREAM" containerstate="OPEN_ALL" filtered="false"/>
+</timelinestate>
+<pdm>
+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</pdm>
+</session>
