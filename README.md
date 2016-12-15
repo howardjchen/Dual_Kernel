@@ -17,6 +17,7 @@
 * Speedup = convLayerCPU_execTime / convLayerGPU_execTime
         
 **- Version : DualKernel_200(Final Version)**
+
 | kernel         | gridDim       | thread      | thread per block  |kernel time|
 | ------         | -----------   |---------     |-------------------|---|
 | Conv kernel    | 128 x 2 x 2   | 512 x 32 x 32|        1024       | 199.8 ms|
@@ -30,10 +31,10 @@ Congratulations! You pass the check.
 Speedup: 87.694 
 ````    
     
-    **Kernel Latency**
+- **Kernel Latency**
 ![](https://i.imgur.com/CEDDBj0.jpg)
 
 
 
-**Kernel Memory**
+- **Kernel Memory**
 ![](https://i.imgur.com/otBV3Hs.jpg)
