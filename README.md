@@ -14,8 +14,7 @@
 * Put cudaDeviceSynchronize() before the last clock_gettime()
 * You must pass the checking to ensure your result is correct!
 * We will compare the execution time to get the speedup
-    
-        Speedup = convLayerCPU_execTime / convLayerGPU_execTime
+* Speedup = convLayerCPU_execTime / convLayerGPU_execTime
         
 **- Version : DualKernel_200(Final Version)**
 | kernel         | gridDim       | thread      | thread per block  |kernel time|
@@ -23,10 +22,13 @@
 | Conv kernel    | 128 x 2 x 2   | 512 x 32 x 32|        1024       | 199.8 ms|
 | Pooling kernel | 128 x 1 x 1 | 512x16x16    |        1024       | 0.159ms|
 
-    CPU time for executing a typical convolutional layer = 16701.2ms
-    GPU time for executing a typical convolutional layer = 190.447.ms
-    Congratulations! You pass the check.
-    Speedup: 87.694 
+
+````
+CPU time for executing a typical convolutional layer = 16701.2ms
+GPU time for executing a typical convolutional layer = 190.447.ms
+Congratulations! You pass the check.
+Speedup: 87.694 
+````    
     
     **Kernel Latency**
 ![](https://i.imgur.com/CEDDBj0.jpg)
