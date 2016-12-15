@@ -15,6 +15,13 @@
 * You must pass the checking to ensure your result is correct!
 * We will compare the execution time to get the speedup
 * Speedup = convLayerCPU_execTime / convLayerGPU_execTime
+
+
+**- Version : Global Barrier** 
+| kernel         | blocks        | threads      | thread per block  |
+| ------         | -----------   |---------     |-------------------|
+| Conv kernel    | 128 x 2 x 2   | 512 x 32 x 32|        1024       | 
+
         
 **- Version : DualKernel_200(Final Version)**
 
