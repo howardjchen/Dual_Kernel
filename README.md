@@ -18,6 +18,7 @@
 
 
 **- Version : Global Barrier** 
+
 | kernel         | blocks        | threads      | thread per block  |
 | ------         | -----------   |---------     |-------------------|
 | Conv kernel    | 128 x 2 x 2   | 512 x 32 x 32|        1024       | 
