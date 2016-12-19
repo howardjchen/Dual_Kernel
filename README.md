@@ -1,10 +1,3 @@
-
-## Task
-
-* Implement convLayerGPU() with CUDA
-* Store your result in the outGPU
-* Use NVIDIA Visual Profiler to analyze and improve your code
-
 ## Evaluation
 
 * convLayerCPU() will do the computation with C++ and store the output in the outCPU
